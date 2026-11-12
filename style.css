@@ -1,0 +1,266 @@
+body{
+    display: block;
+    background:#F5F8FA;
+}
+
+.page{
+    display: block;
+    width: 95%;
+    margin: auto;
+}
+
+.header{
+    display: block;
+    background:#FFFFFF;
+    border: 1px solid #DDDDDD;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.logo-wrap{
+    display: block;
+    float: left;
+    width: 30%;
+    padding: 9px 0;
+}
+
+.logo{
+    display: block;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 18px;
+    color:#1E9FE0;
+    text-decoration: none;
+}
+
+.menu-wrap{
+    display: block;
+    float: right;
+    width: 70%;
+    text-align: right;
+}
+
+.menu-wrap a{
+    display: inline-block;
+    padding: 9px 14px;
+    font-size: 15px;
+    line-height: 18px;
+    color:#1E9FE0;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.menu-wrap a.active{
+    background:#1E9FE0;
+    color:#FFFFFF;
+}
+
+.menu-wrap a:hover{
+    background:#DDEBF5;
+}
+
+.menu-wrap a.active:hover{
+    background:#1E9FE0;
+    color:#FFFFFF;
+}
+
+.banner{
+    display: block;
+    overflow: hidden;
+}
+
+.banner-left{
+    display: block;
+    float: left;
+    width: 65%;
+}
+
+.banner-right{
+    display: block;
+    float: left;
+    width: 35%;
+}
+
+.banner img{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+.banner-left img{
+    height: 20vw;
+}
+
+.banner-right img{
+    height: 10vw;
+}
+
+.banner-strip{
+    display: block;
+    clear: both;
+    height: 8vw;
+}
+
+.features{
+    display: block;
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.feature{
+    display: block;
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.feature a{
+    display: block;
+}
+
+.feature img{
+    display: block;
+    width: 40%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto 10px auto;
+}
+
+.feature h1{
+    display: block;
+    margin: 6px 10px;
+    font-size: 18px;
+}
+
+.feature p{
+    display: block;
+    margin: 0 10px 6px;
+    font-size: 14px;
+    color:#444444;
+}
+
+.cols{
+    display: block;
+    overflow: hidden;
+}
+
+.col{
+    display: block;
+    float: left;
+    width: 33.33%;
+}
+
+.card, .mini{
+    display: block;
+    background:#FFFFFF;
+    border: 1px solid #AAAAAA;
+    padding: 10px;
+    margin: 0 8px 12px;
+    overflow: hidden;
+}
+
+.card.plain{
+    border: none;
+    background: transparent;
+}
+
+.col-1 h1{
+    display: block;
+    font-size: 20px;
+    text-align: right;
+}
+
+.col-2 h1{
+    display: block;
+    font-size: 25px;
+    text-align: center;
+}
+
+.card-text{
+    display: block;
+    float: left;
+    width: 55%;
+}
+
+.card-img{
+    display: block;
+    float: right;
+    width: 43%;
+    height: 30vw;
+    overflow: hidden;
+}
+
+.mini-img{
+    display: block;
+    float: left;
+    width: 35%;
+    height: 9vw;
+    overflow: hidden;
+}
+
+.mini-text{
+    display: block;
+    float: right;
+    width: 62%;
+}
+
+.card-img img, .mini-img img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card p{
+    display: block;
+    margin: 0 0 10px 0;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.mini h1{
+    display: block;
+    margin: 0 0 6px 0;
+    font-size: 16px;
+}
+
+.mini p{
+    display: block;
+    margin: 0 0 8px 0;
+    font-size: 13px;
+}
+
+.btn-row{
+    display: block;
+    text-align: right;
+}
+
+.btn{
+    display: inline-block;
+    background:#1E9FE0;
+    color:#FFFFFF;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background:#0E7FB0;
+}
+
+.footer{
+    display: block;
+    margin: 20px 0 10px 0;
+    text-align: center;
+}
+
+.foot-item{
+    display: inline;
+    margin: 0 12px;
+    font-size: 14px;
+    color:#555555;
+}
